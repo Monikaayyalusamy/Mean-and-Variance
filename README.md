@@ -1,9 +1,10 @@
 #  Mean and variance of a discrete  distribution
+```
 NAME : MONIKA.A
 EXP NO : 1 (MEAN AND VARIANCE OF A DISCRETE DISTRIBUTION)
 DATE : 21.09.2024
 REGISTER NO : 24901066
-
+```
 # Aim : 
 
 To find mean and variance of arrival of objects from the feeder using probability distribution
@@ -48,10 +49,13 @@ It shows the distance of a random variable from its mean. It is calcualted as
 
 ![image](https://user-images.githubusercontent.com/103921593/229993174-5b67e57e-3e01-4ac4-9f83-410a932b22bf.png)
 
-DEVELOPED BY : MONIKA.A
-REGISTER NUMBER : 24901066
 
 # Program :
+```
+DEVELOPED BY : MONIKA.A
+REGISTER NUMBER : 24901066
+```
+```
 import numpy as np
 L=[int(i) for i in input().split()]
 N=len(L); M=max(L) 
@@ -74,7 +78,7 @@ SD=np.sqrt(var)
 print("The Mean arrival rate is %.3f "%mean)
 print("The Variance of arrival from feeder is %.3f "%var) 
 print("The Standard deviation of arrival from feeder is %.3F "%SD)
-
+```
 
 # Output : 
 ![WhatsApp Image 2024-12-16 at 22 21 49_e57ae249](https://github.com/user-attachments/assets/dce41707-92aa-4339-ae75-0f066bb3d10f)
